@@ -27,7 +27,7 @@ export default class RenderizadoElementos extends Component {
         <ol>
           {this.state.seasons.map((el, index) => (
             <li key={index}>{el}</li>
-          ))}
+          ))} 
         </ol>
         <h3>Frameworks Frontend JavaScript</h3>
         <ul>
