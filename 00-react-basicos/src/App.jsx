@@ -9,7 +9,7 @@ import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.jsx";
 import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
 import CicloVida from "./components/CicloVida.jsx";
-// import AjaxApis from "./components/AjaxApis";
+import AjaxApis from "./components/AjaxApis.jsx";
 // import ContadorHooks from "./components/ContadorHooks";
 // import ScrollHooks from "./components/ScrollHooks";
 // import RelojHooks from "./components/RelojHooks";
@@ -69,10 +69,10 @@ function App() {
           <ComunicacionComponentes />
           <hr />
           <CicloVida />
-            </section>
-          {/*
           <hr />
           <AjaxApis />
+            </section>
+          {/*
           <hr />
           <ContadorHooks titulo="Seguidores" />
           <hr />
