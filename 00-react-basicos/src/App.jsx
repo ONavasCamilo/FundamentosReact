@@ -8,7 +8,7 @@ import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.jsx";
 import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
-// import CicloVida from "./components/CicloVida";
+import CicloVida from "./components/CicloVida.jsx";
 // import AjaxApis from "./components/AjaxApis";
 // import ContadorHooks from "./components/ContadorHooks";
 // import ScrollHooks from "./components/ScrollHooks";
@@ -67,10 +67,10 @@ function App() {
           <MasSobreEventos />
           <hr />
           <ComunicacionComponentes />
-            </section>
-          {/*
           <hr />
           <CicloVida />
+            </section>
+          {/*
           <hr />
           <AjaxApis />
           <hr />
