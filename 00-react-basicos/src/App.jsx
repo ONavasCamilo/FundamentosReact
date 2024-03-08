@@ -4,8 +4,8 @@ import "./App.css";
 import Componente from "./components/Componente.jsx"; 
 import Propiedades from "./components/Propiedades.jsx";
 import Estado from "./components/Estado.jsx";
-// import RenderizadoCondicional from "./components/RenderizadoCondicional";
-// import RenderizadoElementos from "./components/RenderizadoElementos";
+import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
+import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
 // import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
 // import ComunicacionComponentes from "./components/ComunicacionComponentes";
 // import CicloVida from "./components/CicloVida";
@@ -55,13 +55,13 @@ function App() {
             />
           <hr />
            <Estado />
-            </section>
-            {/*
           <hr />
           <RenderizadoCondicional />
           <hr />
           <RenderizadoElementos />
           <hr />
+            </section>
+           {/*
           <EventosES6 />
           <hr />
           <EventosES7 />
