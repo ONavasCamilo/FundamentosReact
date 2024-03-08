@@ -7,7 +7,7 @@ import Estado from "./components/Estado.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.jsx";
-// import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
 // import CicloVida from "./components/CicloVida";
 // import AjaxApis from "./components/AjaxApis";
 // import ContadorHooks from "./components/ContadorHooks";
@@ -65,10 +65,10 @@ function App() {
           <EventosES7 />
           <hr />
           <MasSobreEventos />
-            </section>
-          {/*
           <hr />
           <ComunicacionComponentes />
+            </section>
+          {/*
           <hr />
           <CicloVida />
           <hr />
