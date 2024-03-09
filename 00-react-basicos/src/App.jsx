@@ -10,7 +10,7 @@ import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.js
 import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
 import CicloVida from "./components/CicloVida.jsx";
 import AjaxApis from "./components/AjaxApis.jsx";
-// import ContadorHooks from "./components/ContadorHooks";
+import ContadorHooks from "./components/ContadorHooks.jsx";
 // import ScrollHooks from "./components/ScrollHooks";
 // import RelojHooks from "./components/RelojHooks";
 // import AjaxHooks from "./components/AjaxHooks";
@@ -71,10 +71,10 @@ function App() {
           <CicloVida />
           <hr />
           <AjaxApis />
-            </section>
-          {/*
           <hr />
           <ContadorHooks titulo="Seguidores" />
+            </section>
+          {/*
           <hr />
           <ScrollHooks />
           <hr />
