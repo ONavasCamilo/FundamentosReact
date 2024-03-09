@@ -16,8 +16,8 @@ import "./App.css";
 // import AjaxHooks from "./components/AjaxHooks.jsx";
 // import HooksPersonalizados from "./components/HooksPersonalizados.jsx";
 // import Referencias from "./components/Referencias.jsx";
-import Formularios from "./components/Formularios.jsx";
-// import Estilos from "./components/Estilos";
+// import Formularios from "./components/Formularios.jsx";
+import Estilos from "./components/Estilos.jsx";
 // import ComponentesEstilizados from "./components/ComponentesEstilizados";
 
 function App() {
@@ -84,12 +84,12 @@ function App() {
           <hr />
           <Referencias />
           <hr />
-          */}
           <Formularios />
-          </section>
-          {/*
+          */}
           <hr />
           <Estilos />
+          </section>
+          {/*
           <hr />
           <ComponentesEstilizados />
           <br />
