@@ -1,23 +1,23 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-// import Componente from "./components/Componente.jsx"; 
-// import Propiedades from "./components/Propiedades.jsx";
-// import Estado from "./components/Estado.jsx";
-// import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
-// import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
-// import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.jsx";
-// import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
-// import CicloVida from "./components/CicloVida.jsx";
-// import AjaxApis from "./components/AjaxApis.jsx";
-// import ContadorHooks from "./components/ContadorHooks.jsx";
-// import ScrollHooks from "./components/ScrollHooks.jsx";
-// import RelojHooks from "./components/RelojHooks.jsx";
-// import AjaxHooks from "./components/AjaxHooks.jsx";
-// import HooksPersonalizados from "./components/HooksPersonalizados.jsx";
-// import Referencias from "./components/Referencias.jsx";
-// import Formularios from "./components/Formularios.jsx";
-// import Estilos from "./components/Estilos.jsx";
+import Componente from "./components/Componente.jsx"; 
+import Propiedades from "./components/Propiedades.jsx";
+import Estado from "./components/Estado.jsx";
+import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
+import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
+import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos.jsx";
+import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
+import CicloVida from "./components/CicloVida.jsx";
+import AjaxApis from "./components/AjaxApis.jsx";
+import ContadorHooks from "./components/ContadorHooks.jsx";
+import ScrollHooks from "./components/ScrollHooks.jsx";
+import RelojHooks from "./components/RelojHooks.jsx";
+import AjaxHooks from "./components/AjaxHooks.jsx";
+import HooksPersonalizados from "./components/HooksPersonalizados.jsx";
+import Referencias from "./components/Referencias.jsx";
+import Formularios from "./components/Formularios.jsx";
+import Estilos from "./components/Estilos.jsx";
 import ComponentesEstilizados from "./components/ComponentesEstilizados.jsx";
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
           </a>
         </section>
   <section>
-          {/* <Componente msg="Hola soy un Componente Funcional Expresado desde una propiedad" />
+          <Componente msg="Hola soy un Componente Funcional Expresado desde una propiedad" />
           <hr />
           <Propiedades
             cadena="Esto es una cadena de texto"
@@ -87,7 +87,7 @@ function App() {
           <Formularios />
           <hr />
           <Estilos />
-          */}
+         
           <hr />
           <ComponentesEstilizados />
           <br />
