@@ -12,7 +12,7 @@ import CicloVida from "./components/CicloVida.jsx";
 import AjaxApis from "./components/AjaxApis.jsx";
 import ContadorHooks from "./components/ContadorHooks.jsx";
 import ScrollHooks from "./components/ScrollHooks.jsx";
-// import RelojHooks from "./components/RelojHooks";
+import RelojHooks from "./components/RelojHooks.jsx";
 // import AjaxHooks from "./components/AjaxHooks";
 // import HooksPersonalizados from "./components/HooksPersonalizados";
 // import Referencias from "./components/Referencias";
@@ -75,10 +75,10 @@ function App() {
           <ContadorHooks titulo="Seguidores" />
           <hr />
           <ScrollHooks />
-            </section>
-            {/*
           <hr />
           <RelojHooks />
+            </section>
+          {/*
           <hr />
           <AjaxHooks />
           <hr />
