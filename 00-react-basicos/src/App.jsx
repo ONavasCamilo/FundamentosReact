@@ -11,7 +11,7 @@ import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx";
 import CicloVida from "./components/CicloVida.jsx";
 import AjaxApis from "./components/AjaxApis.jsx";
 import ContadorHooks from "./components/ContadorHooks.jsx";
-// import ScrollHooks from "./components/ScrollHooks";
+import ScrollHooks from "./components/ScrollHooks.jsx";
 // import RelojHooks from "./components/RelojHooks";
 // import AjaxHooks from "./components/AjaxHooks";
 // import HooksPersonalizados from "./components/HooksPersonalizados";
@@ -73,10 +73,10 @@ function App() {
           <AjaxApis />
           <hr />
           <ContadorHooks titulo="Seguidores" />
-            </section>
-          {/*
           <hr />
           <ScrollHooks />
+            </section>
+            {/*
           <hr />
           <RelojHooks />
           <hr />
