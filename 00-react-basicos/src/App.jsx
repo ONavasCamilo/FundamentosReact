@@ -14,8 +14,8 @@ import "./App.css";
 // import ScrollHooks from "./components/ScrollHooks.jsx";
 // import RelojHooks from "./components/RelojHooks.jsx";
 // import AjaxHooks from "./components/AjaxHooks.jsx";
-import HooksPersonalizados from "./components/HooksPersonalizados.jsx";
-// import Referencias from "./components/Referencias";
+// import HooksPersonalizados from "./components/HooksPersonalizados.jsx";
+import Referencias from "./components/Referencias.jsx";
 // import Formularios from "./components/Formularios";
 // import Estilos from "./components/Estilos";
 // import ComponentesEstilizados from "./components/ComponentesEstilizados";
@@ -79,12 +79,12 @@ function App() {
           <RelojHooks />
           <hr />
           <AjaxHooks /> */}
-          <hr />
-          <HooksPersonalizados />
-            </section>
-          {/*
+          {/* <hr />
+          <HooksPersonalizados /> */}
           <hr />
           <Referencias />
+          </section>
+          {/*
           <hr />
           <Formularios />
           <hr />
