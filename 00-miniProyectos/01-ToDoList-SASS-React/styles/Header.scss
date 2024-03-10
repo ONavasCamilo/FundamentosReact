@@ -1,10 +1,12 @@
+@import "colors";
+
 .header {
 
     .header__cont-title {
-        background: #FEFFFA;
+        background: $color-primary;
         padding: .5rem;
-        border-bottom: 2px solid #020202;
-        box-shadow: 2px 1px 1rem #000;
+        border-bottom: 2px solid $color-black;
+        box-shadow: 2px 1px 1rem $color-black;
     
         .header__cont-h1 {
             text-align: center;
@@ -14,6 +16,7 @@
 
     .header__cont-logos {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 1.4rem;
