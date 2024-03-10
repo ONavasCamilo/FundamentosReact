@@ -5,8 +5,7 @@
   flex-direction: column;
   align-items: center;
   border: 2px solid $color-black;
-  margin: 0 2rem;
-  // border-radius: 1.5rem;
+  margin: 0 1.4rem;
   padding: 2.5rem;
   background: $color-primary;
   max-height: 170px;
@@ -73,6 +72,59 @@
     @extend .todolist__cont-extends;
     overflow-y: auto;
     overflow-x: none;
+    align-items: flex-start;
+
+    .ToDoList__cont-2__tareas:nth-child(1) {
+      margin-top: 0;
+    }
+
+    .ToDoList__cont-2__tareas {
+      border: 2px solid $color-black;
+      margin: .8rem 0;
+      border-radius: .5rem;
+      width: 70%;
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 1.5rem;
+
+      span {
+        margin: .4rem 0;
+
+        strong {
+          font-size: 1.16em;
+        }
+      }
+
+      .cont-2__tarea-nombre {
+        color: $color-pink;
+        font-size: 1.7em;
+        font-weight: bold;
+      }
+
+      .cont-2__tarea-status {
+        font-weight: bold;
+        justify-self: end;
+        background: $color-primary;
+        border-radius: .3rem;
+        cursor: pointer;
+        margin-top: .9rem;
+        padding: .3rem 1.2rem;
+
+        &:active {
+          transform: scale(.93);
+        }
+      }
+
+      .activa {
+        color: $color-green;
+        border: 1px solid $color-green;
+      }
+      
+      .inactiva {
+        color: $color-red;
+        border: 1px solid $color-red;
+      }
+    }
     
     &::-webkit-scrollbar {
       width: 6px;
@@ -85,10 +137,6 @@
     &::-webkit-scrollbar-thumb {
       background: $color-pink;
     }
-
-    .ToDoList__cont-2__tareas {
-      padding: 20px;
-  }
 
   }
 }

@@ -31,7 +31,7 @@ const DB_TAREAS = [
     },
     {
         "nombre": "Tarea Sorprendente",
-        "descripcion": "¡Prepárate para sorprenderte!",
+        "descripcion": "¡Prepárate para sorprenderte con este alargamiento de la descripción joder ostio tio hay que laburar mas yo creo ehh!",
         "status": true
     },
     {

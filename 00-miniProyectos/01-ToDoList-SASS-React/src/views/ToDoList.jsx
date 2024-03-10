@@ -27,12 +27,12 @@ export default function ToDoList() {
         <h3>Empieza agregando tareas al tablero...</h3>
         <form onSubmit={handleSubmit} className="ToDoList__cont-1__form">
           <div className="cont-1__form-div">
-            <label htmlFor="nombre">Nombre de la tarea:</label>
+            <label htmlFor="nombre">Nombra tu tarea:</label>
             <input onChange={handleChange} value={tarea.nombre} type="text" name="nombre" placeholder="*Campo obligatorio" required />
           </div>
           <div className="cont-1__form-div">
             <label htmlFor="descripcion">Escribe la descripción:</label>
-            <input onChange={handleChange} value={tarea.description} type="text" name="descripcion" />
+            <input onChange={handleChange} value={tarea.descripcion} type="text" name="descripcion" />
           </div>
           <div className="cont-1__form-div">
           <input type="submit" />
