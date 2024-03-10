@@ -1,8 +1,6 @@
 import React from 'react';
 import Technologies from '../components/Technologies';
 
-import "../../styles/App.scss"
-
 export default function Header() {
     return (
         <>
