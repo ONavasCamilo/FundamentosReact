@@ -6,9 +6,10 @@
   align-items: center;
   border: 2px solid $color-black;
   margin: 0 2rem;
-  border-radius: 1.5rem;
+  // border-radius: 1.5rem;
   padding: 2.5rem;
   background: $color-primary;
+  max-height: 170px;
 }
 
 .section__ToDoList {
@@ -70,5 +71,24 @@
 
   .ToDoList__cont-2 {
     @extend .todolist__cont-extends;
+    overflow-y: auto;
+    overflow-x: none;
+    
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $color-black;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: $color-pink;
+    }
+
+    .ToDoList__cont-2__tareas {
+      padding: 20px;
+  }
+
   }
 }
