@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import DB_TAREAS from "../helpers/bd_tareas"
+import { Tareas } from "../components/Tareas";
 
 export default function ToDoList() {
     const [tarea, setTarea] = useState({
@@ -9,6 +11,7 @@ export default function ToDoList() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        alert(tarea.nombre + tarea.descripcion + tarea.status)
     }
 
     const handleChange = (e) => {
@@ -25,7 +28,7 @@ export default function ToDoList() {
         <form onSubmit={handleSubmit} className="ToDoList__cont-1__form">
           <div className="cont-1__form-div">
             <label htmlFor="nombre">Nombre de la tarea:</label>
-            <input onChange={handleChange} value={tarea.nombre} type="text" name="nombre" placeholder="*Campo obligatorio" />
+            <input onChange={handleChange} value={tarea.nombre} type="text" name="nombre" placeholder="*Campo obligatorio" required />
           </div>
           <div className="cont-1__form-div">
             <label htmlFor="descripcion">Escribe la descripción:</label>
@@ -38,7 +41,9 @@ export default function ToDoList() {
       </div>
 
       <div className="ToDoList__cont-2">
-        <p>No hay tareas...</p>
+        { DB_TAREAS 
+        ? DB_TAREAS.map((item, index) => (<Tareas key={index} nombre={item.nombre} descripcion={item.descripcion} status={item.status}/>))   
+        : <p>No hay tareas...</p> }
       </div>
     </section>
   );
