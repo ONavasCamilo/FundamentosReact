@@ -8,7 +8,7 @@
   margin: 1rem 1.4rem;
   padding: 2.5rem;
   background: $color-primary;
-  max-height: 170px;
+  max-height: 200px; //* 450px extendible
 }
 
 .section__ToDoList {
@@ -34,7 +34,7 @@
         align-items: end;
 
         .cont-1__form-div {
-            margin: .4rem;
+            margin: .8rem;
 
             input[type="text"] {
                 margin: 0 .4rem;

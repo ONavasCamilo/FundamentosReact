@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 
-export const Tareas = ({ nombre, descripcion, status }) => {
+export const Tareas = ({ id, nombre, descripcion, status, onNameClick }) => {
     const [estado, setEstado] = useState(status)
+
     const handleClickStatus = () => {
         setEstado(!estado)
     }
+
+    const handleNombreClick = () => {
+        onNameClick(id, nombre)
+    }
+
     return(
         <div className='ToDoList__cont-2__tareas'>
             <span className='cont-2__tarea-nombre'>{nombre}</span>
