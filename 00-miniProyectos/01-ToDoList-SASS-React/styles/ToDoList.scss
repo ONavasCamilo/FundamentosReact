@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   border: 2px solid $color-black;
-  margin: 0 1.4rem;
+  margin: 1rem 1.4rem;
   padding: 2.5rem;
   background: $color-primary;
   max-height: 170px;
@@ -22,6 +22,7 @@
 
     h3 {
         margin-top: 0;
+        margin-right: 1.5rem;
         color: $color-black;
         font-size: 1.4em;
         font-weight: 900;
@@ -74,6 +75,10 @@
     overflow-x: none;
     align-items: flex-start;
 
+     p {
+        align-self: center;
+      }
+
     .ToDoList__cont-2__tareas:nth-child(1) {
       margin-top: 0;
     }
@@ -124,6 +129,7 @@
         color: $color-red;
         border: 1px solid $color-red;
       }
+
     }
     
     &::-webkit-scrollbar {
@@ -137,6 +143,6 @@
     &::-webkit-scrollbar-thumb {
       background: $color-pink;
     }
-
+    
   }
 }
