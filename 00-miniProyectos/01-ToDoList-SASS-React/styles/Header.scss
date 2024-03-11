@@ -24,6 +24,7 @@
         .header__cont-logo {
             margin: 1rem 3rem;
             width: 120px;
+            filter: drop-shadow(10px 5px 5px $color-pink);
             transition: transform 0.3 ease;
 
             &:hover {
