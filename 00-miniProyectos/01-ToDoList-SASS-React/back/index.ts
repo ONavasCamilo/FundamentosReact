@@ -1,5 +1,7 @@
 import app from "./app"
+require("dotenv").config
+const PORT = process.env.PORT || 3000
 
-app.listen(3000, () => {
-    console.log('server abierto')
-})ñ
+app.listen(PORT, () => {
+    console.log(`server abierto ${PORT}`)
+})
